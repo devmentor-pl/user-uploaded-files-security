@@ -15,7 +15,7 @@ function validateFiles(e) {
     return;
   }
 
-  if (filesSize > 1000) {
+  if (filesSize > 100000) {
     console.log('Przekroczono łączny limit wielkości plików.');
     return;
   }
